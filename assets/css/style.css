@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 600px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 580px;
+  height: 100%;
+} 
+
+div {
+  padding: 5px 0 5px 0;
+}
+
+form {
+  width: 100%;
+}
+
+form span {
+  color: red;
+}
+
+form div:nth-of-type(1) label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form div:nth-of-type(1) input {
+  padding: 10px;
+  width: 49.5%;
+  
+}
+
+form div:nth-of-type(2) label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form div:nth-of-type(2) input {
+  padding: 10px;
+  width: 100%;
+}
+
+form div:nth-of-type(3) label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form div:nth-of-type(3) select {
+  padding: 10px;
+  width: 100%;
+}
+
+form div:nth-of-type(4) label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form .message textarea {
+  width: 100%;
+}
+
+form .message textarea::placeholder {
+  padding: 10px;
+  font-size: 25px;
+  color: rgba(0,0,0,0.12);
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(38, 167, 154);
+  border: none;
+  text-decoration: none;
+  color: white;
+}
+
+form button:hover {
+  background-color: rgba(0, 0, 0, 0.307);
+}

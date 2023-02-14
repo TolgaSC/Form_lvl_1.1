@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms_lvl_1_1</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form>
+        <div class="name">
+            <label for="name">Name<span> *</span></label> <br>
+            <input type="text" name="Name" id="Vorname" placeholder="Vorname" required>
+            <input type="text" name="Nachname" id="Nachname" placeholder="Nachname" required>
+        </div>
+        <div class="email">
+            <label for="email">Email<span> *</span></label>
+            <br>
+            <input type="email" name="Email" id="Email" required>
+        </div>
+        <div class="thema">
+            <label for="Thema">Thema</label> 
+            <br>
+            <select name="Thema" id="Thema"> 
+                <option value="General">General</option>
+                <option value="Advertise">Advertise</option>
+                <option value="Partnership">Partnership</option>
+            </select>
+        </div>
+        <div class="message">
+            <label for="Nachricht">Nachricht<span> *</span></label> <br>
+            <textarea name="Nachricht" id="Nachricht" cols="63" rows="8" required placeholder="Get in Touch!"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
